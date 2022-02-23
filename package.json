@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/CooledxD/01-Template/issues"
   },
-  "homepage": "https://github.com/CooledxD/01-Template#readme"
+  "homepage": "https://github.com/CooledxD/01-Template#readme",
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
 }

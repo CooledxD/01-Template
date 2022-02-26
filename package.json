@@ -6,7 +6,8 @@
   "scripts": {
     "start": "set NODE_ENV=development&&webpack serve",
     "dev": "set NODE_ENV=development&&webpack",
-    "build": "set NODE_ENV=production&&webpack"
+    "build": "set NODE_ENV=production&&webpack",
+    "clean": "rd /s /q dist"
   },
   "repository": {
     "type": "git",

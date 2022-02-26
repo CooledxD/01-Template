@@ -11,7 +11,7 @@ module.exports = {
   mode: mode,
 
   entry: {
-    main: './src/index.js'
+    main: './src/main.js'
   },
 
   devtool: 'source-map',

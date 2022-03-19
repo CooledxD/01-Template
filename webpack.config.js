@@ -40,7 +40,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/pages/index.html',
+      template: './src/pages/index.hbs',
       inject: 'body'
     }),
     new MiniCssExtractPlugin({
@@ -65,6 +65,10 @@ module.exports = {
       {
         test: /\.html$/i,
         loader: 'html-loader'
+      },
+      {
+        test: /\.hbs$/,
+        loader: 'handlebars-loader'
       }
     ]
   }

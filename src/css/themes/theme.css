@@ -1,0 +1,15 @@
+.page_theme {
+  background-color: var(--chinese-black);
+  font-family: interregular, sans-serif;
+}
+
+.link_theme {
+  color: var(--columbia-blue);
+}
+
+.button_theme {
+  background-color: var(--very-light-blue);
+  color: var(--white);
+  border-radius: 2px;
+  font-family: intermedium, sans-serif;
+}

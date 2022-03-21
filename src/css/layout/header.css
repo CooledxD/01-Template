@@ -1,0 +1,10 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.header__logo {
+  grid-column: span 10;
+}
+

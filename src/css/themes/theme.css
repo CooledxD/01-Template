@@ -3,6 +3,8 @@
   font-family: interregular, sans-serif;
 }
 
+/* Header */
+
 .link_theme {
   color: var(--columbia-blue);
 }
@@ -10,9 +12,10 @@
 .button_theme {
   background-color: var(--very-light-blue);
   color: var(--white);
-  border-radius: 2px;
   font-family: intermedium, sans-serif;
 }
+
+/* Hero */
 
 .title {
   color: var(--azureish-white);
@@ -36,4 +39,27 @@
 
 .video_theme {
   background: url(../../img/hero/Video.jpg) no-repeat;
+}
+
+/* Section-one */
+
+.section-one__title_theme {
+  font-size: 2.5rem;
+}
+
+.section-one__subtitle {
+  font-size: 1.5rem;
+  font-family: interbold, sans-serif;
+}
+
+.section-one__text_theme {
+  font-size: 1.125rem;
+}
+
+.icon-wraper_theme {
+  background-color: var(--very-light-blue);
+}
+
+.divider {
+  border-bottom: 1px solid var(--onyx);
 }

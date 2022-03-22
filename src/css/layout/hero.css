@@ -1,0 +1,41 @@
+.hero {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 12px;
+  align-items: center;
+  grid-template-rows: repeat(12, 1fr);
+  row-gap: 15px;
+  justify-items:center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hero__title {
+  grid-column: span 12;
+}
+
+.hero__text {
+  grid-column: 3/span 8;
+  text-align: center;
+  width: 650px;
+}
+
+.hero__button-one {
+  padding: 14px 0;
+  grid-column: span 6;
+  width: 167px;
+  justify-self: end;
+}
+
+.hero__button-two {
+  padding: 14px 0;
+  grid-column: span 6;
+  width: 149px;
+  justify-self: start;
+}
+
+.hero__video {
+  grid-column: span 12;
+  grid-row: span 9;
+  
+}

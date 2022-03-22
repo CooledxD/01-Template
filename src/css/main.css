@@ -15,14 +15,24 @@
 
 @import './themes/theme.css';
 
-/* Layout */
-
-@import './layout/grid.css';
-@import './layout/header.css';
-
 /* Components */
 
 @import './components/button.css';
+@import './components/img.css';
+@import './components/video.css';
+@import './components/icon.css';
+
+
+
+/* Layout */
+
+@import './layout/header.css';
+@import './layout/hero.css';
+@import './layout/section-one.css';
+
+
+
+
 
 
 

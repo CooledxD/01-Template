@@ -1,0 +1,24 @@
+.section-one {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 48px;
+  align-items: center;
+  grid-template-rows: repeat(8, 1fr);
+  row-gap: 15px;
+  justify-items:center;
+}
+
+.section-one__title {
+  grid-column: span 12;
+}
+
+.section-one__text {
+  grid-column: 3/span 8;
+  text-align: center;
+}
+
+.section-one__item {
+  grid-column: span 4;
+  grid-row: span 3;
+}
+

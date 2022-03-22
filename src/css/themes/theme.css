@@ -13,3 +13,27 @@
   border-radius: 2px;
   font-family: intermedium, sans-serif;
 }
+
+.title {
+  color: var(--azureish-white);
+  font-size: 3.25rem;
+  font-family: interextra_bold, sans-serif;
+}
+
+.text {
+  color: var(--cadet-grey);
+  font-size: 1.25rem;
+}
+
+.hero__button-one_theme {
+  background-color: var(--very-light-blue);
+}
+
+.hero__button-two_theme {
+  background-color: var(--onyx);
+  color: var(--columbia-blue);
+}
+
+.video_theme {
+  background: url(../../img/hero/Video.jpg) no-repeat;
+}

@@ -12,12 +12,13 @@
 
 .hero__title {
   grid-column: span 12;
+  text-align: center;
 }
 
 .hero__text {
   grid-column: 3/span 8;
   text-align: center;
-  width: 650px;
+  max-width: 650px;
 }
 
 .hero__button-one {

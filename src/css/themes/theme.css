@@ -39,6 +39,8 @@
 
 .video_theme {
   background: url(../../img/hero/Video.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position: center;
 }
 
 /* Section-one */
@@ -56,10 +58,43 @@
   font-size: 1.125rem;
 }
 
-.icon-wraper_theme {
+.icon-wrap_theme {
   background-color: var(--very-light-blue);
 }
+
+/* Divider */
 
 .divider {
   border-bottom: 1px solid var(--onyx);
 }
+
+/* Section-two */
+
+.section-two__slogan_theme {
+  background-color: var(--aero-blue);
+  font-size: 0.875rem;
+  font-family: intersemi_bold, sans-serif;
+  color: var(--medium-sea-green);
+}
+
+.section-two__title_theme {
+  font-size: 2.5rem;
+}
+
+.section-two__subtitle {
+  font-family: interbold, sans-serif;
+  font-size: 2rem;
+}
+
+.section-two__caption {
+  color: var(--iris);
+  font-size: 1.25rem;
+  font-family: architects_daughterregular, sans-serif;
+}
+
+.list_theme {
+  font-size: 1.125rem;
+  color: var(--cadet-grey);
+  list-style-image: url(../../img/section-two/mark.svg);
+}
+

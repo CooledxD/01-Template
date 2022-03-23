@@ -21,12 +21,15 @@
 @import './components/img.css';
 @import './components/video.css';
 @import './components/icon.css';
+@import './components/list.css';
 
 /* Layout */
 
 @import './layout/header.css';
 @import './layout/hero.css';
 @import './layout/section-one.css';
+@import './layout/section-two.css';
+
 
 
 

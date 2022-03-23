@@ -37,3 +37,11 @@
   font-style: normal;
 
 }
+
+@font-face {
+  font-family: 'architects_daughterregular';
+  src: url('../../fonts/architectsdaughter-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+
+}

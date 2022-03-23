@@ -1,0 +1,22 @@
+.article {
+  padding: 24px;
+}
+
+.article__text {
+  padding-bottom: 25px;
+}
+
+.article__header {
+  position: relative;
+}
+
+.article__avatar {
+  width: 48px;
+}
+
+.article__img {
+  position: absolute;
+  top: 0;
+  left: 36px;
+  width: 24px;
+}

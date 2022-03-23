@@ -98,3 +98,30 @@
   list-style-image: url(../../img/section-two/mark.svg);
 }
 
+/* Article */
+
+.article_theme {
+  background-color: var(--charleston-green);
+}
+
+.article__text_theme {
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+}
+
+.article__footer_theme {
+  font-size: 1rem;
+  color: var(--azureish-white);
+}
+
+.article__span_theme {
+ color: var(--very-light-blue);
+ font-family: intermedium, sans-serif;
+}
+
+/* Testimonials */
+
+.testimonials__title_theme {
+  font-size: 2.5rem;
+}
+

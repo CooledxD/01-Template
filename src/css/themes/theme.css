@@ -7,12 +7,18 @@
 
 .link_theme {
   color: var(--columbia-blue);
+  font-size: 1rem;
+  letter-spacing: -0.25px;
+  line-height: 1.5rem;
 }
 
 .button_theme {
   background-color: var(--very-light-blue);
   color: var(--white);
   font-family: intermedium, sans-serif;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  letter-spacing: -0.25px;
 }
 
 /* Hero */
@@ -21,18 +27,18 @@
   color: var(--azureish-white);
   font-size: 3.25rem;
   font-family: interextra_bold, sans-serif;
+  letter-spacing: -0.5px;
+  line-height: 3.875rem;
 }
 
 .text {
   color: var(--cadet-grey);
   font-size: 1.25rem;
+  line-height: 1.875rem;
+  letter-spacing: -0.25px;
 }
 
-.hero__button-one_theme {
-  background-color: var(--very-light-blue);
-}
-
-.hero__button-two_theme {
+.hero__button_theme {
   background-color: var(--onyx);
   color: var(--columbia-blue);
 }
@@ -47,15 +53,19 @@
 
 .section-one__title_theme {
   font-size: 2.5rem;
+  line-height: 3.125rem;
 }
 
 .section-one__subtitle {
   font-size: 1.5rem;
   font-family: interbold, sans-serif;
+  line-height: 2.125rem;
+  letter-spacing: -0.25px;
 }
 
 .section-one__text_theme {
   font-size: 1.125rem;
+  line-height: 1.6875rem;
 }
 
 .icon-wrap_theme {
@@ -75,27 +85,35 @@
   font-size: 0.875rem;
   font-family: intersemi_bold, sans-serif;
   color: var(--medium-sea-green);
+  line-height: 1.375rem;
 }
 
 .section-two__title_theme {
   font-size: 2.5rem;
+  line-height: 3.125rem;
 }
 
 .section-two__subtitle {
   font-family: interbold, sans-serif;
   font-size: 2rem;
+  letter-spacing: -0.25px;
+  line-height: 2.625rem;
 }
 
 .section-two__caption {
   color: var(--iris);
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: architects_daughterregular, sans-serif;
+  line-height: 1.875rem;
+  letter-spacing: 0.25px;
 }
 
 .list_theme {
   font-size: 1.125rem;
   color: var(--cadet-grey);
   list-style-image: url(../../img/section-two/mark.svg);
+  line-height: 1.6875rem;
+  letter-spacing: -0.25px;
 }
 
 /* Article */
@@ -112,6 +130,7 @@
 .article__footer_theme {
   font-size: 1rem;
   color: var(--azureish-white);
+  line-height: 1.5rem;
 }
 
 .article__span_theme {
@@ -123,5 +142,73 @@
 
 .testimonials__title_theme {
   font-size: 2.5rem;
+  line-height: 3.125rem;
 }
 
+/* Subscribe */
+
+.subscribe_theme {
+  background-color: var(--very-light-blue);
+}
+
+.subscribe__title_theme {
+  font-size: 2rem;
+  font-family: interbold, sans-serif;
+  color: var(--white);
+  line-height: 2.625rem;
+  letter-spacing: -0.25px;
+}
+
+.subscribe__text_theme {
+  font-size: 1.125rem;
+  color: var(--lavender);
+  line-height: 1.6875rem;
+}
+
+.subscribe__input_theme {
+  background-color: var(--iris);
+  border-color: var(--maximum-blue-purple);
+}
+
+.subscribe__input_theme::placeholder {
+  color: var(--maximum-blue-purple);
+}
+
+.subscribe__button_theme {
+  background-color: var(--magnolia);
+  color: var(--very-light-blue);
+  font-family: intermedium, sans-serif;
+  font-size: 1rem;
+}
+
+/* Menu */
+
+.menu_theme {
+  line-height: 1.6rem;
+}
+
+.menu__title_theme {
+  font-size: 0.875rem;
+  font-family: intermedium, sans-serif;
+  line-height: 1.5rem;
+}
+
+.menu-item_theme {
+  color: var(--cadet-grey);
+  font-size: 0.875rem;
+}
+
+/* Footer */
+
+.footer__text_theme {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.footer__icon_theme {
+  background-color: var(--charleston-green);
+}
+
+.copy {
+  font-size: 0.875rem;
+}

@@ -1,46 +1,48 @@
 .section-two {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 60px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
   align-items: center;
-  grid-template-rows: repeat(21, 1fr);
+  grid-template-rows: 30px 50px 60px repeat(3, 1fr);
   justify-items:center;
   row-gap: 15px;
   padding-bottom: 80px;
-  padding-top: 80px;
+  padding-top: 81px;
 }
 
 .section-two__slogan {
-  grid-column: span 12;
-  padding: 8px;
+  grid-column: span 2;
+  padding: 4px 12px;
   border-radius: 15px;
 }
 
 .section-two__title {
-  grid-column: span 12;
+  grid-column: span 2;
   text-align: center;
 }
 
 .section-two__text {
-  grid-column: span 12;
+  grid-column: span 2;
   text-align: center;
-  max-width: 750px;
+  max-width: 700px;
 }
 
 .section-two__item {
   display: grid;
-  row-gap: 18px;
+  row-gap: 8px;
 
-  grid-column: span 6;
-  grid-row: span 6;
+  grid-column: span 1;
+  grid-row: span 1;
 
-  margin-top: 60px;
-}
+  justify-self: start;
 
-.section-two__item_w {
-  max-width: 500px;
+  margin-top: 65px;
 }
 
 .section-two__list {
   padding-left: 20px;
+}
+
+.section-two__item_p-l {
+  padding-left: 40px;
 }

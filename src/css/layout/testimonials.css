@@ -1,31 +1,33 @@
 .testimonials {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   align-items: center;
-  grid-template-rows: repeat(6, 1fr);
-  row-gap: 10px;
+  grid-template-rows: 50px 60px 1fr;
+  row-gap: 16px;
   justify-items:center;
 
-  padding-top: 80px;
+  padding-top: 82px;
 }
 
 .testimonials__title {
-  grid-column: span 12;
+  grid-column: span 3;
   text-align: center;
 }
 
 .testimonials__text {
-  grid-column: span 12;
+  grid-column: span 3;
   text-align: center;
-  max-width: 780px;
+  max-width: 750px;
 }
 
 .testimonials__item {
   display: grid;
-  row-gap: 20px;
+  row-gap: 16px;
 
-  grid-column: span 4;
-  grid-row: span 4;
+  grid-column: span 1;
+  grid-row: span 1;
+
+  margin-top: 63px;
 
 }

@@ -23,6 +23,8 @@
 @import './components/icon.css';
 @import './components/list.css';
 @import './components/article.css';
+@import './components/menu.css';
+@import './components/menu-item.css';
 
 /* Layout */
 
@@ -32,6 +34,7 @@
 @import './layout/section-two.css';
 @import './layout/testimonials.css';
 @import './layout/footer.css';
+@import './layout/forms.css';
 
 
 

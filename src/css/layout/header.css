@@ -2,13 +2,10 @@
   padding-top: 20px;
   padding-bottom: 20px;
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 1fr  112px 96px;
   gap: 48px;
   align-items: center;
 
 }
 
-.header__logo {
-  grid-column: span 10;
-}
 
